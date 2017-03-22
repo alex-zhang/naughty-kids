@@ -1,0 +1,15 @@
+{
+  "name": "naughty-kids",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:alex-zhang/naughty-kids.git",
+  "author": "alex zhang <gzane24@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "env":"env"
+  },
+  "dependencies": {
+    "nightmare": "^2.10.0"
+  }
+}
