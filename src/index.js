@@ -19,8 +19,8 @@ nightmare
 	.click('#J_LoginInfoHd a:first-child')
 	.wait(1000)
 	.click('#J_Quick2Static')
-	.type('#TPL_username_1', '15000273963')
-	.type('#TPL_password_1', '95692046zczc')
+	.type('#TPL_username_1', '*****')
+	.type('#TPL_password_1', '*****')
 	.click('#J_SubmitStatic')
 	.catch(function (error) {
 		console.error('Search failed:', error);
